@@ -1,0 +1,74 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "0719fe81-a2dc-459f-8135-709d5b865ac6")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 26.67 29.21)
+		(size 19.05 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "73a93bf8-c063-4ffa-80b3-56b93be80a34")
+		(property "Sheetname" "in_digital"
+			(at 26.67 28.4984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "in_digital.kicad_sch"
+			(at 26.67 38.6846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "out" output
+			(at 45.72 31.75 0)
+			(uuid "ec626d00-6aad-4906-b5f4-fb1478eb338d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "input" input
+			(at 26.67 31.75 180)
+			(uuid "e1621cf2-5c37-4adc-b149-aeb48bbcc74b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "PLC Electiva"
+				(path "/3009cacf-38eb-4eca-a972-5da0e5b01e81/4a1c3b97-70a2-49f7-868d-dc9eb4a472d7"
+					(page "3")
+				)
+			)
+		)
+	)
+)

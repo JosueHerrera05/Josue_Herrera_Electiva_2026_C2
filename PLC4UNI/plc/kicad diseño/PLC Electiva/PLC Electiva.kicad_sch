@@ -1,0 +1,453 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "3009cacf-38eb-4eca-a972-5da0e5b01e81")
+	(paper "USLedger")
+	(title_block
+		(title "PLC4UNI")
+		(date "2026-06-11")
+		(rev "1.0")
+		(company "ITLA")
+	)
+	(lib_symbols)
+	(sheet
+		(at 156.718 53.848)
+		(size 21.59 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7d64b135-de26-4f76-9e98-e328648dc077")
+		(property "Sheetname" "PowerSupply"
+			(at 156.718 53.1364 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PowerSupply.kicad_sch"
+			(at 156.718 62.0526 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VCC_IN" input
+			(at 156.718 57.658 180)
+			(uuid "0574665b-ef9d-48b5-91e3-b40c34e046e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "PLC Electiva"
+				(path "/3009cacf-38eb-4eca-a972-5da0e5b01e81"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 157.48 85.09)
+		(size 68.58 53.34)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b4e10dcf-2fa7-4b6f-8c95-9dc5d0ca178c")
+		(property "Sheetname" "main"
+			(at 157.48 84.3784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "control.kicad_sch"
+			(at 157.48 139.0146 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CON_RS485_A" input
+			(at 226.06 91.44 0)
+			(uuid "dbed8d2c-be9f-4f35-9caf-be203071309a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CON_RS485_B" input
+			(at 226.06 93.98 0)
+			(uuid "7e4852d1-2384-4a37-93b8-62b575f12155")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CON_RS485_G" input
+			(at 226.06 88.9 0)
+			(uuid "712dbbf9-a687-4246-8528-60f8f5c92827")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CON-IN_CT_N" input
+			(at 157.48 123.19 180)
+			(uuid "ce80e5f0-970a-420d-81ad-71bcb90b83ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CON-IN_CT_P" input
+			(at 157.48 125.73 180)
+			(uuid "9291309b-304e-4b3b-a541-0ce71ccc1b8e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CON-IN_VAC_N" input
+			(at 157.48 128.27 180)
+			(uuid "e9465427-5fa2-4f2d-a3ef-cbacba5d8f70")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CON-IN_VAC_P" input
+			(at 157.48 130.81 180)
+			(uuid "45cf5060-a89d-46c5-8b7b-30dee8652787")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CON_IN_NPN1" input
+			(at 157.48 92.71 180)
+			(uuid "be990b1f-1a1d-41af-a253-1b6405eb31bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CON_IN_NPN2" input
+			(at 157.48 95.25 180)
+			(uuid "795cddbd-4ef7-4f91-9783-fcee4074b6d5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CON_IN_NPN3" input
+			(at 157.48 97.79 180)
+			(uuid "135d29fb-5787-4fc7-99c9-ebc77b335e70")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CON_IN_NPN4" input
+			(at 157.48 100.33 180)
+			(uuid "1ba74c6d-dc77-4904-a4a5-ed6c6c5a0796")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CON_IN_PNP1" input
+			(at 157.48 102.87 180)
+			(uuid "e25388c8-3604-4496-bd2e-85e020ed4479")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CON_IN_PNP2" input
+			(at 157.48 105.41 180)
+			(uuid "d72861b5-c3f5-4e80-ae06-3d13cb42b0d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CON_IN_TC+" input
+			(at 157.48 107.95 180)
+			(uuid "825de81d-2938-4125-b47e-8178138dced3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CON_IN_TC-" input
+			(at 157.48 110.49 180)
+			(uuid "35ce19f2-727b-4a79-aaeb-e407f641802d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CON_OUT_NPN1" input
+			(at 226.06 96.52 0)
+			(uuid "37d48508-6076-435e-bb71-4ac636620d81")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CON_OUT_NPN2" input
+			(at 226.06 99.06 0)
+			(uuid "ad573145-d6bb-49eb-af06-c7b799077039")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CON_OUT_NPN3" input
+			(at 226.06 101.6 0)
+			(uuid "6676e60c-7317-47f0-a9dd-f313f7257f56")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CON_OUT_NPN4" input
+			(at 226.06 104.14 0)
+			(uuid "4ec9b82f-61ad-484e-b89e-002b355e322a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CON_OUT_PNP1" output
+			(at 226.06 106.68 0)
+			(uuid "bfa4ff7e-ad30-4a3c-a833-eacb14431f29")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CON_OUT_PNP2" output
+			(at 226.06 109.22 0)
+			(uuid "8bd58b14-fb59-4a16-9043-425f8378e77b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CON_OUT_RLY1_COM" output
+			(at 226.06 111.76 0)
+			(uuid "5ab6f840-3046-4720-8407-f85283c464b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CON_OUT_RLY1_NC" output
+			(at 226.06 114.3 0)
+			(uuid "c99ff742-b4b7-467c-84aa-3e77eef9e1c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CON_OUT_RLY1_NO" output
+			(at 226.06 116.84 0)
+			(uuid "bede0c11-f3da-42f4-b591-9219c8392473")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CON_OUT_RLY2_COM" output
+			(at 226.06 124.46 0)
+			(uuid "0f234c56-cda7-4f59-bb4a-dac9aa094faa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CON_OUT_RLY2_NO" output
+			(at 226.06 121.92 0)
+			(uuid "6989ca5f-7705-4ff3-a0f9-7e83203cccb3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CON_OUT_0-10V" output
+			(at 226.06 129.54 0)
+			(uuid "8f552ec0-7ed4-4eff-8c6f-8f0b17e6f66b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CON_OUT_4-20MA" output
+			(at 226.06 127 0)
+			(uuid "838305f1-9487-4c7d-b689-00b932bc1234")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CON-IN-4-20MA_1" input
+			(at 157.48 118.11 180)
+			(uuid "8c647d30-92b4-4169-b411-4538d118b9cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CON-IN-4-20MA_2" input
+			(at 157.48 120.65 180)
+			(uuid "7d44c7a1-48c8-48fb-bc1a-196e8781e8b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CON_IN_0-10V_1" input
+			(at 157.48 113.03 180)
+			(uuid "1abfc9c8-b2eb-4066-8635-09d048154bfe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CON_IN_0-10V_2" input
+			(at 157.48 115.57 180)
+			(uuid "ece16986-a268-492b-ab8c-822842df471b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CON_OUT_RLY2_NC" output
+			(at 226.06 119.38 0)
+			(uuid "587271ad-a530-4952-8329-bddbfd9bcf89")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PLC Electiva"
+				(path "/3009cacf-38eb-4eca-a972-5da0e5b01e81"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
