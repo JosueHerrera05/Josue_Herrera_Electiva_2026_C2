@@ -416,7 +416,7 @@
         "uuid": "3009cacf-38eb-4eca-a972-5da0e5b01e81"
       }
     ],
-    "used_designators": "D1-3,D6,D17-21,#PWR2-3,#PWR5-11,#PWR13,#PWR18-20,#PWR48-49,#PWR51,#PWR54,#PWR58-60,#PWR64,#PWR72,#PWR83,#PWR85,#PWR114-119,LED5,C1-2,C13,C25-26,C41-45,R4,R30-31,R50,J1,SW1,TP1-4,TP6-8,U1,U3-4,U10,L1",
+    "used_designators": "D4-5,D7-21,#PWR1,#PWR5-7,#PWR9-11,#PWR13-67,#PWR70-112,K1-2,LED4-10,C4-40,C46,R4-69,J1,SW1,TP1-5,TP9-11,U1-2,U4-18,Q1,Q4-7,connector\\-up1-2,connector\\-down1-2",
     "variants": []
   },
   "sheets": [
@@ -431,6 +431,90 @@
     [
       "7d64b135-de26-4f76-9e98-e328648dc077",
       "PowerSupply"
+    ],
+    [
+      "73c63f7a-a083-4c5f-8e33-4ec50a6ad5c7",
+      "EnergyMeterA1"
+    ],
+    [
+      "8d4ef3d5-ed9a-4916-a16f-ceac0ca80347",
+      "IN-0-10V"
+    ],
+    [
+      "3c6545e9-1f9d-4eb2-aee0-1eb7668dc4d5",
+      "IN-0-10V1"
+    ],
+    [
+      "97c268be-c15f-434a-ba1e-8a16a468e830",
+      "IN-4-20MA"
+    ],
+    [
+      "2db34852-e1b1-4dba-8841-5f87028cd233",
+      "IN-4-20MA1"
+    ],
+    [
+      "e68b7295-fc15-4c7a-97b0-36750baa1693",
+      "IN-DI"
+    ],
+    [
+      "bf846eed-c237-4ed9-8eed-6047e64a6743",
+      "IN-DI1"
+    ],
+    [
+      "8cf41c94-4a4d-4890-b122-f3e897526bef",
+      "IN-DI2"
+    ],
+    [
+      "57c3a767-9fab-423a-bf13-f2c8de0fe1e7",
+      "IN-DI3"
+    ],
+    [
+      "37a2dc3c-39eb-4cbd-9408-2d6c5bdc371d",
+      "IN-DI4"
+    ],
+    [
+      "e6da14db-08f1-4474-91df-c2dea1a0edc5",
+      "IN-DI5"
+    ],
+    [
+      "2458c41c-fd4d-415d-a830-707e70e4c970",
+      "OUT-0-10V"
+    ],
+    [
+      "fc5c7a90-868f-466c-8ad1-4f210ab179f1",
+      "OUT-4-20MA"
+    ],
+    [
+      "e6bd8354-bd10-4803-9c6c-b23fb456f72b",
+      "OUT-NPN"
+    ],
+    [
+      "65d7a52a-6ef6-49bb-b497-4429a63e1ff1",
+      "OUT-NPN1"
+    ],
+    [
+      "df4e0992-cdd9-4fa5-8aa0-709c8e194987",
+      "OUT-NPN2"
+    ],
+    [
+      "6c0931ff-dfc6-4ba2-aca6-727ea70dc8c0",
+      "OUT-NPN3"
+    ],
+    [
+      "f713fcde-4058-4edb-a608-399d8000aba7",
+      "OUT-PNP"
+    ],
+    [
+      "bb147849-df39-44d1-97f2-0bcc8cda52ea",
+      "RLY"
+    ],
+    [
+      "8f12f1a9-d1be-41a1-8dcd-5dd4f4f0ba3b",
+      "TC"
+    ],
+    [
+      "3a8c573a-0178-4a5e-86f2-311fc8fb98fd",
+      "Josue Herrera"
     ]
   ],
   "text_variables": {},
